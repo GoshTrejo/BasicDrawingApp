@@ -1,4 +1,3 @@
-alert("Doble click Navigation Menu to hide and double click Workspace to show Navigation Menu")
 const canvas = document.getElementById("canvas") //Almacenamos nuestro canvas(area de dibujo)
 const body = document.querySelector('body');//Almacenamos el body de nuestra pagina
 
