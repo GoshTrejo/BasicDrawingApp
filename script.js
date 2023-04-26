@@ -104,18 +104,6 @@ window.addEventListener("mousemove", (e) => {
     
 })
 
-
-// const navHide = () => {
-//     console.log("Hidden Nav Bar");
-//     document.getElementById("navMenu").style.opacity = "0"
-// }
-
-// const navShow = ()=> {
-//     console.log("Showing Nav Bar");
-//     document.getElementById("navMenu").style.opacity = "0.9"
-
-// }
-
 canvas.addEventListener("mouseover", () => {
     
     document.getElementById("navMenu").style.opacity="0";
