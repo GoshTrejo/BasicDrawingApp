@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing🎨</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <canvas id="canvas" ondblclick="navShow()"></canvas>
+    <div class="nav" id="navMenu" ondblclick="navHide()">
+        <div class="clr" data-clr="#044E92"></div>
+        <div class="clr" data-clr="#F2F2F2"></div>
+        <div class="clr" data-clr=" #000000"></div>
+        <div class="clr" data-clr="#5E37AD"></div>
+        <div class="clr" data-clr="#F8312F "></div>
+        <button class="clear">Clear</button>
+        <button class="save">Save</button>
+        <a target="_blank" href="./newWorkspace.html" hidden><button class="myArts">New</button></a>
+        <input type="color" id="favcolor" value="#FFFFFF">
+        <input type="range" name="ageInputName" id="ageInputId" value="5" min="1" max="10"
+            oninput="ageOutputId.value = ageInputId.value">
+        <output id="ageOutputId">5</output>
+    </div>
+
+
+
+
+</body>
+
+</html>

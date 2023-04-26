@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+canvas {
+    position:absolute;
+    width: 99.5%;
+    height: 99%;
+    border-radius: 5px;
+    top: -1px;
+    border: 5px solid rgb(16, 5, 70);
+}
+
+.nav{
+    
+    width: 1000px;
+    height: 50px;
+    position: fixed;
+    top: 1%;
+    left: 50%;
+    padding: 10px;
+    border-radius:50px;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: opacity .5s;
+    background: linear-gradient(to right, #d270f3, #0d034d);
+}
+
+.nav div{
+float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.clr{
+    height: 30px;
+    width: 30px;
+    background-color: rebeccapurple;
+    border-radius: 50%;
+    border: 3px solid  rgb(214, 214, 214);
+    transition: transform .5s;
+}
+
+.clr:hover{
+    transform: scale(1.2);
+}
+
+.clr:nth-child(1){
+    background-color: #044E92;
+}
+
+.clr:nth-child(2){
+    background-color: #F2F2F2;
+}
+
+.clr:nth-child(3){
+    background-color: #000000;
+}
+
+.clr:nth-child(4){
+    background-color: #5E37AD;
+}   
+
+.clr:nth-child(5){
+    background-color:#F8312F ;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: .6cm 1em;
+    border-radius: 3px;
+    background-color: #4af867;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover{
+    transform: scale(1.2);
+}
+
+.save{
+    background-color: #00bad2;
+}
+.myArts{
+    font-size: small;
+}
+
+input[type="color"] {
+    width: 60px;
+    height: 40px;
+}
+
+#ageOutputId {
+    color: white;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+#ageInputId {
+    background: linear-gradient(to right, #000428 0%, #004e92 100%);
+    height: 7px;
+    outline: none;
+    cursor: ew-resize;
+    border-radius: 5px;
+    border: 3px solid white;
+    accent-color: white;
+}
+
+.emoji {
+    font-size: 40px;
+    padding-bottom: 10px;
+}   
+
